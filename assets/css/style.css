@@ -7,7 +7,20 @@
 }
 
 body {
-    font-family: 'Abril Fatface', sans-serif;
+    font-family: 'Open sans', sans-serif;
     font-weight: 300;
+    color: #3a3a3a;
 
+}
+
+h1, h1 {
+    font-family: 'Abril Fatface', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
 }

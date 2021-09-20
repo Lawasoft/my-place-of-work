@@ -38,7 +38,7 @@ h1, h1 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 100px;
+    margin-left: 100px;
 }
 
 #menu a {

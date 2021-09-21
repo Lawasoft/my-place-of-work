@@ -21,8 +21,9 @@ h1, h2 {
 }
 
 #logo {
-    float: center;
+    text-align: center;
     font-size: 200%;
+    
 }
 
 #menu {
@@ -52,4 +53,10 @@ h1, h2 {
 
 .active {
     border-bottom: #3a3a3a;
+}
+
+#arn-image {
+    height: 700px;
+    width: 100%;
+    background: url('../images/arlanda-terminal-wide.jpg') no-repeat center center;
 }

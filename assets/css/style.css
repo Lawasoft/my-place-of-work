@@ -9,7 +9,8 @@
 body {
     font-family: 'Open sans', sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
+    color: #19cbd8;
+    background-color: lightgray;
 
 }
 
@@ -23,6 +24,7 @@ h1, h2 {
 #logo {
     text-align: center;
     font-size: 200%;
+    color: rgb(43, 255, 0);
     
 }
 
@@ -51,7 +53,7 @@ h1, h2 {
 }
 
 .active {
-    border-bottom: #3a3a3a;
+    border-bottom: rgb(43, 255, 0);
 }
 
 #arn-image {
@@ -59,4 +61,23 @@ h1, h2 {
     width: 100%;
     background: url('../images/arlanda-terminal-wide.jpg') no-repeat center center;
     
+}
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }

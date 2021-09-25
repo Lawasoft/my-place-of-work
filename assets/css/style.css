@@ -9,8 +9,8 @@
 body {
     font-family: 'Open sans', sans-serif;
     font-weight: 300;
-    color: #19cbd8;
-    background-color: lightgray;
+    color: #ffffff;
+    background-color: rgb(207, 99, 198);
 
 }
 
@@ -24,13 +24,14 @@ h1, h2 {
 #logo {
     text-align: center;
     font-size: 200%;
-    color: rgb(43, 255, 0);
+    color: rgb(17, 0, 255);
     
 }
 
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
+    text-align: center;
     
 }
 
@@ -41,6 +42,8 @@ h1, h2 {
 #menu li {
     list-style-type: none;
     margin-right: 200px;
+    color: rgb(0, 0, 0);
+    text-size-adjust: 150%;
 }
 
 #menu a {
@@ -49,11 +52,11 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #00e1ff;
 }
 
 .active {
-    border-bottom: rgb(43, 255, 0);
+    border-bottom: #00e1ff;
 }
 
 #arn-image {
@@ -79,5 +82,10 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #1100ff;
+}
+
+.info-text {
+    font-size: larger;
+    
 }

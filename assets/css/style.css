@@ -25,6 +25,12 @@ h2 {
     text-align: center;
 }
 
+p.info-text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 32em;
+}
+
 #logo {
     text-align: center;
     font-size: 200%;
@@ -88,11 +94,6 @@ footer {
     color: #1100ff;
 }
 
-.info-text {
-    font-size: larger;
-    
-}
-
 #photos {
     clear: both;
     line-height: 0;
@@ -104,25 +105,9 @@ footer {
     width: 100%;
 }
 
-.iframe-container {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25;
-    height: 0;
-}
-
-.iframe-container iframe {
+.video {
+    width: 560;
+    height: 315;
     position: absolute;
-    top 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
     
 }
-
-/*@media screen and (max-width: 950px;) {
-    
-    #photos {
-        column-count: 3;
-    }
-} */

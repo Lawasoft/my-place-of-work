@@ -110,9 +110,12 @@ footer {
     justify-content: center;
   } */
 
-  .video {
-    width: 20rem;
-    margin: auto;
-    display: flex;
+.video {
     justify-content: center;
+    display: flex;
+    margin: auto;
   }
+/*
+  width: 20rem;
+    margin: auto;
+  */  

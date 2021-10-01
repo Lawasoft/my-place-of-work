@@ -105,9 +105,14 @@ footer {
     width: 100%;
 }
 
-.video {
-    width: 560;
-    height: 315;
-    position: absolute;
-    
-}
+/*.video {
+    display: flex;
+    justify-content: center;
+  } */
+
+  .video {
+    width: 20rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }

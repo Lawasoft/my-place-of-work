@@ -58,13 +58,14 @@ div nav {
     margin-bottom: 100px;
 }
 
+.active {
+    border-bottom: #ffffff;
+}
+    
 .social-networks {
     text-align: center;
 }
 
-.active {
-    border-bottom: #ffffff;
-}
 .social-networks > li {
     display: inline;
     font-size: 160%;

@@ -44,3 +44,5 @@ more credits with links
 ## Media
 Photos are from where..
 
+Fontawesome
+Google Fonts

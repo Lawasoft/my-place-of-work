@@ -63,6 +63,9 @@ div nav {
     text-align: center;
 }
 
+.active {
+    border-bottom: #ffffff;
+}
 .social-networks > li {
     display: inline;
     font-size: 160%;
